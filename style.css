@@ -1,0 +1,98 @@
+<style>
+
+body {
+  font-family: times, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #D79334;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #9A6C31;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 70px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+img {
+  max-width: auto;
+  max-height: auto;
+}
+
+.show-description p {
+  height: 300px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+    background-size: contain;
+    background-position: center;
+  background-image: url("https://scontent-hou1-1.xx.fbcdn.net/v/t1.6435-9/51692396_10213717965644275_282033648876650496_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=pEyxExrcj90AX_LAE_H&_nc_ht=scontent-hou1-1.xx&oh=00_AT8_5YAJxaD2UKUHeteI42_8dnfKBijqWxE45peClZNZnA&oe=631A7826");
+}
+.second{
+    background-size: contain;
+    background-position: center;
+  background-image: url("https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/271436809_10221179598100423_4113787620130394107_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=XFQ-5KHi6vkAX80oToh&_nc_ht=scontent-hou1-1.xx&oh=00_AT-rQrdZlnii3k6d0aQJrkFFzqNJRuGmur_rfcDaiuMXhA&oe=62FA267C");
+}
+.third{
+    background-size: contain;
+    background-position: 0%;
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=715837b0c7&attid=0.2&permmsgid=msg-f:1732326993004073306&th=180a7638ccd4115a&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9AqS9N3K-zZdb7W1kIO6QiC0u4lb8dZap7Fryi-a5JsAJdbUeGBFCqnwnEwfpHwxTqqVG28KJcoaAlFyTtpEkoG0UMy08EWsY01I9PtqOh1Kp92r1TqmKSk_8&disp=emb");
+}
+.Info {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
